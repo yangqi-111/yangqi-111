@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="a410dafe9e254f3e9fd0988e65d00df4" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_a410dafe9e254f3e9fd0988e65d00df4 = echarts.init(
+            document.getElementById('a410dafe9e254f3e9fd0988e65d00df4'), 'white', {renderer: 'canvas'});
+        var option_a410dafe9e254f3e9fd0988e65d00df4 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u5546\u54c11",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "China",
+                    "value": 199
+                },
+                {
+                    "name": "Russia",
+                    "value": 156
+                },
+                {
+                    "name": "France",
+                    "value": 122
+                },
+                {
+                    "name": "Argentina",
+                    "value": 50
+                },
+                {
+                    "name": "United States",
+                    "value": 200
+                },
+                {
+                    "name": "Philippines",
+                    "value": 100
+                },
+                {
+                    "name": "Indonesia",
+                    "value": 131
+                },
+                {
+                    "name": "United ArabEmirates",
+                    "value": 122
+                },
+                {
+                    "name": "Germany",
+                    "value": 144
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 99
+                },
+                {
+                    "name": "Britain",
+                    "value": 77
+                },
+                {
+                    "name": "Ireland",
+                    "value": 123
+                },
+                {
+                    "name": "Italy",
+                    "value": 177
+                },
+                {
+                    "name": "Australia",
+                    "value": 175
+                },
+                {
+                    "name": "Canada",
+                    "value": 30
+                },
+                {
+                    "name": "Brazil",
+                    "value": 20
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "map",
+            "name": "\u5546\u54c12",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "Peru",
+                    "value": 9
+                },
+                {
+                    "name": "Egypt",
+                    "value": 11
+                },
+                {
+                    "name": "Libya",
+                    "value": 5
+                },
+                {
+                    "name": "Morocco",
+                    "value": 7
+                },
+                {
+                    "name": "Congo",
+                    "value": 3
+                },
+                {
+                    "name": "Afghanistan",
+                    "value": 11
+                },
+                {
+                    "name": "Bengal",
+                    "value": 15
+                },
+                {
+                    "name": "India",
+                    "value": 5
+                },
+                {
+                    "name": "Togo",
+                    "value": 6
+                },
+                {
+                    "name": "Comorin",
+                    "value": 3
+                },
+                {
+                    "name": "Mauritius",
+                    "value": 5
+                },
+                {
+                    "name": "Ethiopia",
+                    "value": 10
+                },
+                {
+                    "name": "Niger",
+                    "value": 9
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5546\u54c11",
+                "\u5546\u54c12"
+            ],
+            "selected": {
+                "\u5546\u54c11": true,
+                "\u5546\u54c12": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "\u5546\u54c1\u6295\u8d44\u91d1\u989d(\u5355\u4f4d\uff1a\u4ebf\u5143)",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 200,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_a410dafe9e254f3e9fd0988e65d00df4.setOption(option_a410dafe9e254f3e9fd0988e65d00df4);
+    </script>
+</body>
+</html>
