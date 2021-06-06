@@ -1,3 +1,14 @@
+# 计算机科学与编程入门课程大作业
+## 学号：1900012608   姓名：杨棋
+## 相关链接如下：
+[1链接](https://yangqi-111.github.io/0点-12点热度值变化情况对比.html)
+[1链接](https://yangqi-111.github.io/14点到22点热度值变化情况对比.html)
+[1链接](https://yangqi-111.github.io/各个话题持续时间对比.html)
+[1链接](https://yangqi-111.github.io/各类别话题占比情况.html)
+[1链接](https://yangqi-111.github.io/两者各个话题热度值增量变化.html)
+[1链接](https://yangqi-111.github.io/两者关于同一个话题热度值变化情况对比.html)
+[1链接](https://yangqi-111.github.io/两者话题排名变化.html)
+[1链接](https://yangqi-111.github.io/热度值变化对比.html)
 # 计算机科学与编程入门课程第三次作业
 ## 学号：1900012608   姓名：杨棋
 ## 一．作业1：. 选一部文学作品（可以是之前分析词频的作品），分析人物“共现”，生成关系图
