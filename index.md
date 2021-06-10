@@ -16,7 +16,7 @@
 
 [链接7](https://yangqi-111.github.io/两者话题排名变化.html)
 
-[链接8](https://yangqi-111.github.io/热度值变化对比.html)
+[链接8](https://yangqi-111.github.io/热度值(最大值、均值)变化对比.html)
 
 # 计算机科学与编程入门课程第三次作业
 ## 学号：1900012608   姓名：杨棋
